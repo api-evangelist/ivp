@@ -3,9 +3,9 @@ method: searched
 source: https://www.ivp.com/portfolio/
 summary:
   portfolio_total: 153
-  in_network: 81
-  api_providers: 55
-  missing: 72
+  in_network: 153
+  api_providers: 63
+  missing: 0
   stubs_created: 0
 companies:
 - name: Suno
@@ -21,24 +21,27 @@ companies:
   sector: space
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cowboy-space-corporation
+  slug: cowboy-space-corporation
+  matched_by: name-slug
 - name: Cape
   sector: telecom
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cape
+  slug: cape
+  matched_by: name-slug
 - name: Venice
   url: https://venice.ai
   sector: ai
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: venice
+  slug: venice
+  matched_by: name-slug
 - name: Anthropic
   url: https://www.anthropic.com
   sector: ai
@@ -53,25 +56,28 @@ companies:
   sector: healthcare
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: solace-health
+  slug: solace
+  matched_by: domain
 - name: Genlogs
   url: https://www.genlogs.io
   sector: logistics
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: genlogs
+  in_network: true
+  is_api_provider: true
+  slug: genlogs
+  matched_by: domain
 - name: Gamma
   url: https://gamma.app
   sector: productivity
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gamma
+  slug: gamma
+  matched_by: domain
 - name: Kalshi
   url: https://kalshi.com
   sector: fintech
@@ -85,9 +91,10 @@ companies:
   sector: ai
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wonderful
+  slug: wonderful
+  matched_by: name-slug
 - name: LangChain
   url: https://www.langchain.com
   sector: developer-tools
@@ -102,33 +109,37 @@ companies:
   sector: gaming
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: appcharge
+  in_network: true
+  is_api_provider: true
+  slug: appcharge
+  matched_by: domain
 - name: Superhuman
   url: https://superhuman.com
   sector: productivity
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: superhuman
+  slug: superhuman
+  matched_by: domain
 - name: Tennr
   url: https://www.tennr.com
   sector: healthcare
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tennr
+  slug: tennr
+  matched_by: domain
 - name: Laurel
   url: https://www.laurel.ai
   sector: productivity
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: laurel
+  in_network: true
+  is_api_provider: true
+  slug: laurel
+  matched_by: domain
 - name: ClickHouse
   url: https://clickhouse.com
   sector: data-infrastructure
@@ -143,17 +154,19 @@ companies:
   sector: hardware
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lumafield
+  slug: lumafield
+  matched_by: domain
 - name: Sublime Security
   url: https://sublime.security
   sector: cybersecurity
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sublime-security
+  in_network: true
+  is_api_provider: true
+  slug: sublime-security
+  matched_by: domain
 - name: Sage
   sector: ai
   status: active
@@ -176,9 +189,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: numeric
+  slug: numeric
+  matched_by: domain
 - name: Vercel
   url: https://vercel.com
   sector: developer-tools
@@ -229,17 +243,19 @@ companies:
   sector: healthcare
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: accompany-health
+  slug: accompany-health
+  matched_by: domain
 - name: Kittl
   url: https://www.kittl.com
   sector: design
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kittl
+  slug: kittl
+  matched_by: domain
 - name: Perplexity
   url: https://www.perplexity.ai
   sector: ai
@@ -253,9 +269,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: volt
+  slug: volt
+  matched_by: name-slug
 - name: Cortex
   url: https://www.cortex.io
   sector: developer-tools
@@ -278,25 +295,28 @@ companies:
   sector: productivity
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: roam
+  slug: roam
+  matched_by: name-slug
 - name: Jasper
   url: https://www.jasper.ai
   sector: ai
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jasper
+  slug: jasper
+  matched_by: domain
 - name: Pigment
   url: https://www.pigment.com
   sector: enterprise-saas
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: pigment
+  in_network: true
+  is_api_provider: true
+  slug: pigment
+  matched_by: domain
 - name: Monte Carlo Data
   url: https://www.montecarlodata.com
   sector: data-infrastructure
@@ -329,9 +349,10 @@ companies:
   sector: healthcare
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clipboard-health
+  slug: clipboard-health
+  matched_by: name-slug
 - name: Sorare
   url: https://sorare.com
   sector: gaming
@@ -340,7 +361,7 @@ companies:
   slug: sorare
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Veriff
   url: https://www.veriff.com
   sector: identity
@@ -355,9 +376,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: taxbit
+  slug: taxbit
+  matched_by: domain
 - name: Productiv
   url: https://productiv.com
   sector: enterprise-saas
@@ -371,9 +393,10 @@ companies:
   sector: edtech
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: paper
+  slug: paper
+  matched_by: name-slug
 - name: Papaya Global
   url: https://www.papayaglobal.com
   sector: hr-tech
@@ -388,16 +411,18 @@ companies:
   sector: healthcare
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hello-heart
+  slug: helloheart
+  matched_by: domain
 - name: Found
   sector: fintech
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: found
+  slug: found
+  matched_by: name-slug
 - name: Figma
   url: https://www.figma.com
   sector: design
@@ -412,17 +437,19 @@ companies:
   sector: consumer
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fightcamp
+  slug: fightcamp
+  matched_by: domain
 - name: Dream Games
   url: https://www.dreamgames.com
   sector: gaming
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dream-games
+  slug: dreamgames
+  matched_by: domain
 - name: Cribl
   url: https://cribl.io
   sector: data-infrastructure
@@ -437,17 +464,18 @@ companies:
   sector: healthcare
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aledade
+  slug: aledade
+  matched_by: domain
 - name: Ajaib
   url: https://ajaib.co.id
   sector: fintech
   status: active
   source: https://www.ivp.com/portfolio/
-  slug: goto-gojek
+  slug: erudifi
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: WHOOP
   url: https://www.whoop.com
@@ -463,17 +491,19 @@ companies:
   sector: marketing
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: supermetrics
+  slug: supermetrics
+  matched_by: domain
 - name: Robinhood
   url: https://robinhood.com
   sector: fintech
   status: ipo
   source: https://www.ivp.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: robinhood
+  in_network: true
+  is_api_provider: true
+  slug: robinhood
+  matched_by: domain
 - name: Lyra Health
   url: https://www.lyrahealth.com
   sector: healthcare
@@ -515,17 +545,19 @@ companies:
   sector: healthcare
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: curology
+  slug: curology
+  matched_by: domain
 - name: Yellowbrick Data
   url: https://yellowbrick.com
   sector: data-infrastructure
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yellowbrick-data
+  slug: yellowbrick-data
+  matched_by: name-slug
 - name: Nextdoor
   url: https://nextdoor.com
   sector: consumer
@@ -549,7 +581,7 @@ companies:
   sector: hr-tech
   status: active
   source: https://www.ivp.com/portfolio/
-  slug: eightfold-ai
+  slug: eightfold
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -558,9 +590,10 @@ companies:
   sector: marketing
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: attentive
+  in_network: true
+  is_api_provider: true
+  slug: attentive
+  matched_by: domain
 - name: UiPath
   url: https://www.uipath.com
   sector: automation
@@ -584,17 +617,19 @@ companies:
   sector: gaming
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: niantic
+  slug: niantic
+  matched_by: domain
 - name: Lulus
   url: https://www.lulus.com
   sector: ecommerce
   status: ipo
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lulus
+  slug: lulus
+  matched_by: domain
 - name: Lime
   url: https://www.li.me
   sector: mobility
@@ -617,9 +652,10 @@ companies:
   sector: hr-tech
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: humu
+  slug: humu
+  matched_by: name-slug
 - name: Hims & Hers
   url: https://www.hims.com
   sector: healthcare
@@ -715,25 +751,28 @@ companies:
   sector: consumer
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: thrive-global
+  in_network: true
+  is_api_provider: true
+  slug: thrive-global
+  matched_by: domain
 - name: The Players Tribune
   url: https://www.theplayerstribune.com
   sector: media
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-players-tribune
+  slug: the-players-tribune
+  matched_by: domain
 - name: Tala
   url: https://tala.co
   sector: fintech
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tala
+  slug: tala
+  matched_by: domain
 - name: Rubrik
   url: https://www.rubrik.com
   sector: cybersecurity
@@ -748,9 +787,10 @@ companies:
   sector: edtech
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: masterclass
+  slug: masterclass
+  matched_by: domain
 - name: Looker
   url: https://looker.com
   sector: analytics
@@ -765,16 +805,18 @@ companies:
   sector: ai
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grammarly
+  slug: grammarly
+  matched_by: domain
 - name: Expanse
   sector: cybersecurity
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: expanse
+  slug: expanse
+  matched_by: name-slug
 - name: Discord
   url: https://discord.com
   sector: consumer
@@ -807,17 +849,19 @@ companies:
   sector: fintech
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: iex
+  slug: iex
+  matched_by: name-slug
 - name: Glossier
   url: https://www.glossier.com
   sector: ecommerce
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: glossier
+  slug: glossier
+  matched_by: domain
 - name: Giphy
   url: https://giphy.com
   sector: media
@@ -831,17 +875,19 @@ companies:
   sector: cybersecurity
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cyence
+  slug: cyence
+  matched_by: name-slug
 - name: Zerto
   url: https://www.zerto.com
   sector: cloud
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zerto
+  slug: zerto
+  matched_by: domain
 - name: Uber
   url: https://www.uber.com
   sector: mobility
@@ -873,9 +919,10 @@ companies:
   sector: enterprise-saas
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: steelbrick
+  slug: steelbrick
+  matched_by: name-slug
 - name: SoFi
   url: https://www.sofi.com
   sector: fintech
@@ -899,17 +946,19 @@ companies:
   sector: cybersecurity
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pindrop
+  slug: pindrop
+  matched_by: domain
 - name: NerdWallet
   url: https://www.nerdwallet.com
   sector: fintech
   status: ipo
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nerdwallet
+  slug: nerdwallet
+  matched_by: domain
 - name: GitHub
   url: https://github.com
   sector: developer-tools
@@ -942,9 +991,10 @@ companies:
   sector: ecommerce
   status: ipo
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: casper
+  slug: casper
+  matched_by: domain
 - name: ZipRecruiter
   url: https://www.ziprecruiter.com
   sector: hr-tech
@@ -976,25 +1026,28 @@ companies:
   sector: marketing
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zefr
+  slug: zefr
+  matched_by: domain
 - name: Whip Media Group
   url: https://www.whipmedia.com
   sector: media
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: whip-media-group
+  slug: whip-media-group
+  matched_by: domain
 - name: Prosper
   url: https://www.prosper.com
   sector: fintech
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: prosper
+  slug: prosper
+  matched_by: domain
 - name: NextRoll
   url: https://www.nextroll.com
   sector: marketing
@@ -1018,25 +1071,28 @@ companies:
   sector: fintech
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: indiegogo
+  in_network: true
+  is_api_provider: true
+  slug: indiegogo
+  matched_by: domain
 - name: GroundTruth
   url: https://www.groundtruth.com
   sector: marketing
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: groundtruth
+  slug: groundtruth
+  matched_by: domain
 - name: Data.ai
   url: https://www.data.ai
   sector: analytics
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dataai
+  slug: dataai
+  matched_by: domain
 - name: Anomali
   url: https://www.anomali.com
   sector: cybersecurity
@@ -1045,7 +1101,7 @@ companies:
   slug: anomali
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: TuneIn
   url: https://tunein.com
   sector: media
@@ -1053,16 +1109,17 @@ companies:
   source: https://www.ivp.com/portfolio/
   slug: tunein
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Supercell
   url: https://supercell.com
   sector: gaming
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: supercell
+  slug: supercell
+  matched_by: domain
 - name: SoundCloud
   url: https://soundcloud.com
   sector: media
@@ -1077,9 +1134,9 @@ companies:
   sector: consumer
   status: ipo
   source: https://www.ivp.com/portfolio/
-  slug: snapchat
+  slug: snap
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Pure Storage
   url: https://www.purestorage.com
@@ -1095,31 +1152,35 @@ companies:
   sector: fintech
   status: ipo
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oportun
+  slug: oportun
+  matched_by: domain
 - name: OnDeck Capital
   sector: fintech
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ondeck-capital
+  slug: ondeck-capital
+  matched_by: name-slug
 - name: Dataminr
   url: https://www.dataminr.com
   sector: analytics
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dataminr
+  slug: dataminr
+  matched_by: domain
 - name: Datalogix
   sector: marketing
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: datalogix
+  slug: datalogix
+  matched_by: name-slug
 - name: AppDynamics
   url: https://www.appdynamics.com
   sector: developer-tools
@@ -1133,17 +1194,19 @@ companies:
   sector: cybersecurity
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lifelock
+  slug: lifelock
+  matched_by: name-slug
 - name: Voxer
   url: https://www.voxer.com
   sector: communications
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: voxer
+  slug: voxer
+  matched_by: domain
 - name: Mindbody
   url: https://www.mindbodyonline.com
   sector: enterprise-saas
@@ -1158,9 +1221,10 @@ companies:
   sector: consumer
   status: ipo
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inspirato
+  slug: inspirato
+  matched_by: domain
 - name: Care.com
   url: https://www.care.com
   sector: consumer
@@ -1175,9 +1239,10 @@ companies:
   sector: ecommerce
   status: ipo
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-honest-company
+  slug: honest-company
+  matched_by: domain
 - name: LegalZoom
   url: https://www.legalzoom.com
   sector: legaltech
@@ -1191,9 +1256,10 @@ companies:
   sector: media
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: group-nine-media
+  slug: group-nine-media
+  matched_by: name-slug
 - name: Dropbox
   url: https://www.dropbox.com
   sector: productivity
@@ -1217,16 +1283,18 @@ companies:
   sector: media
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: business-insider
+  slug: business-insider
+  matched_by: domain
 - name: Personal Capital
   sector: fintech
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: personal-capital
+  slug: personal-capital
+  matched_by: name-slug
 - name: Marketo
   url: https://www.marketo.com
   sector: marketing
@@ -1240,16 +1308,18 @@ companies:
   sector: logistics
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fleetmatics
+  slug: fleetmatics
+  matched_by: name-slug
 - name: Buddy Media
   sector: marketing
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: buddy-media
+  slug: buddy-media
+  matched_by: name-slug
 - name: Yext
   url: https://www.yext.com
   sector: marketing
@@ -1263,9 +1333,10 @@ companies:
   sector: gaming
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ngmoco
+  slug: ngmoco
+  matched_by: name-slug
 - name: Zynga
   url: https://www.zynga.com
   sector: gaming
@@ -1288,6 +1359,7 @@ companies:
   sector: travel
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: homeaway
+  slug: homeaway
+  matched_by: name-slug
