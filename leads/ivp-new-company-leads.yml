@@ -44,10 +44,3 @@ leads:
   source_vc: ivp
   source: https://www.ivp.com/portfolio/
   stub_created: false
-- name: OnDeck Capital
-  url: ''
-  suggested_slug: ondeck-capital
-  sector: fintech
-  source_vc: ivp
-  source: https://www.ivp.com/portfolio/
-  stub_created: false

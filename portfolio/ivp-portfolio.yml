@@ -3,9 +3,9 @@ method: searched
 source: https://www.ivp.com/portfolio/
 summary:
   portfolio_total: 153
-  in_network: 146
+  in_network: 147
   api_providers: 72
-  missing: 7
+  missing: 6
   stubs_created: 0
 companies:
 - name: Suno
@@ -668,8 +668,8 @@ companies:
   is_api_provider: false
   url: https://mediaoptions.com/brokered-domains/humu-com/
   x-url-source: network-repo (title-verified 2026-10-18)
-  x-name-collision: humu
   suggested_slug: mediaoptions-com
+  x-name-collision: humu
 - name: Hims & Hers
   url: https://www.hims.com
   sector: healthcare
@@ -1177,9 +1177,12 @@ companies:
   sector: fintech
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ondeck-capital
+  url: https://www.ondeck.com/
+  x-url-source: web search 2026-10-18
+  slug: ondeck
+  matched_by: domain
 - name: Dataminr
   url: https://www.dataminr.com
   sector: analytics
