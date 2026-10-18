@@ -3,9 +3,9 @@ method: searched
 source: https://www.ivp.com/portfolio/
 summary:
   portfolio_total: 153
-  in_network: 153
-  api_providers: 63
-  missing: 0
+  in_network: 147
+  api_providers: 71
+  missing: 6
   stubs_created: 0
 companies:
 - name: Suno
@@ -21,10 +21,9 @@ companies:
   sector: space
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: cowboy-space-corporation
-  matched_by: name-slug
+  suggested_slug: cowboy-space-corporation
 - name: Cape
   sector: telecom
   status: active
@@ -39,9 +38,9 @@ companies:
   status: active
   source: https://www.ivp.com/portfolio/
   in_network: true
-  is_api_provider: false
-  slug: venice
-  matched_by: name-slug
+  is_api_provider: true
+  slug: venice-ai
+  matched_by: domain
 - name: Anthropic
   url: https://www.anthropic.com
   sector: ai
@@ -165,7 +164,7 @@ companies:
   source: https://www.ivp.com/portfolio/
   in_network: true
   is_api_provider: true
-  slug: sublime-security
+  slug: emailrep
   matched_by: domain
 - name: Sage
   sector: ai
@@ -278,7 +277,7 @@ companies:
   sector: developer-tools
   status: active
   source: https://www.ivp.com/portfolio/
-  slug: cortex
+  slug: cortex-idp
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -305,7 +304,7 @@ companies:
   status: active
   source: https://www.ivp.com/portfolio/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: jasper
   matched_by: domain
 - name: Pigment
@@ -349,10 +348,10 @@ companies:
   sector: healthcare
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: clipboard-health
-  matched_by: name-slug
+  x-name-collision: clipboard-health
+  suggested_slug: clipboardhealth-com
 - name: Sorare
   url: https://sorare.com
   sector: gaming
@@ -413,16 +412,15 @@ companies:
   source: https://www.ivp.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: helloheart
+  slug: hello-heart
   matched_by: domain
 - name: Found
   sector: fintech
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: found
-  matched_by: name-slug
+  suggested_slug: found
 - name: Figma
   url: https://www.figma.com
   sector: design
@@ -473,7 +471,7 @@ companies:
   sector: fintech
   status: active
   source: https://www.ivp.com/portfolio/
-  slug: erudifi
+  slug: actavis
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -518,7 +516,7 @@ companies:
   sector: healthcare
   status: active
   source: https://www.ivp.com/portfolio/
-  slug: ribbon-health
+  slug: h1
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -554,10 +552,10 @@ companies:
   sector: data-infrastructure
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: yellowbrick-data
-  matched_by: name-slug
+  x-name-collision: yellowbrick-data
+  suggested_slug: yellowbrick-com
 - name: Nextdoor
   url: https://nextdoor.com
   sector: consumer
@@ -581,9 +579,9 @@ companies:
   sector: hr-tech
   status: active
   source: https://www.ivp.com/portfolio/
-  slug: eightfold
+  slug: eightfold-ai
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Attentive
   url: https://www.attentive.com
@@ -610,7 +608,7 @@ companies:
   source: https://www.ivp.com/portfolio/
   slug: podium
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Niantic
   url: https://nianticlabs.com
@@ -681,7 +679,7 @@ companies:
   source: https://www.ivp.com/portfolio/
   slug: g2
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Deputy
   url: https://www.deputy.com
@@ -690,7 +688,7 @@ companies:
   source: https://www.ivp.com/portfolio/
   slug: deputy
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Datadog
   url: https://www.datadoghq.com
@@ -849,10 +847,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: iex
-  matched_by: name-slug
+  x-name-collision: iex
+  suggested_slug: iexexchange-io
 - name: Glossier
   url: https://www.glossier.com
   sector: ecommerce
@@ -911,9 +909,9 @@ companies:
   sector: data-infrastructure
   status: acquired
   source: https://www.ivp.com/portfolio/
-  slug: sumologic
+  slug: sensu
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Steelbrick
   sector: enterprise-saas
@@ -928,9 +926,9 @@ companies:
   sector: fintech
   status: ipo
   source: https://www.ivp.com/portfolio/
-  slug: sofi
+  slug: sofi-technologies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Slack
   url: https://slack.com
@@ -948,7 +946,7 @@ companies:
   source: https://www.ivp.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: pindrop
+  slug: pindrop-security
   matched_by: domain
 - name: NerdWallet
   url: https://www.nerdwallet.com
@@ -1053,7 +1051,7 @@ companies:
   sector: marketing
   status: active
   source: https://www.ivp.com/portfolio/
-  slug: adroll
+  slug: nextroll
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -1081,7 +1079,7 @@ companies:
   status: active
   source: https://www.ivp.com/portfolio/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: groundtruth
   matched_by: domain
 - name: Data.ai
@@ -1091,7 +1089,7 @@ companies:
   source: https://www.ivp.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: dataai
+  slug: app-annie
   matched_by: domain
 - name: Anomali
   url: https://www.anomali.com
@@ -1136,7 +1134,7 @@ companies:
   source: https://www.ivp.com/portfolio/
   slug: snap
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Pure Storage
   url: https://www.purestorage.com
@@ -1160,10 +1158,9 @@ companies:
   sector: fintech
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: ondeck-capital
-  matched_by: name-slug
+  suggested_slug: ondeck-capital
 - name: Dataminr
   url: https://www.dataminr.com
   sector: analytics
@@ -1342,7 +1339,7 @@ companies:
   sector: gaming
   status: acquired
   source: https://www.ivp.com/portfolio/
-  slug: take-two-interactive-software
+  slug: zynga
   in_network: true
   is_api_provider: false
   matched_by: domain

@@ -1,4 +1,46 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: ivp
-leads: []
+leads:
+- name: Cowboy Space Corporation
+  url: ''
+  suggested_slug: cowboy-space-corporation
+  sector: space
+  source_vc: ivp
+  source: https://www.ivp.com/portfolio/
+  stub_created: false
+- name: Clipboard Health
+  url: https://www.clipboardhealth.com
+  suggested_slug: clipboardhealth-com
+  sector: healthcare
+  source_vc: ivp
+  source: https://www.ivp.com/portfolio/
+  stub_created: false
+- name: Found
+  url: ''
+  suggested_slug: found
+  sector: fintech
+  source_vc: ivp
+  source: https://www.ivp.com/portfolio/
+  stub_created: false
+- name: Yellowbrick Data
+  url: https://yellowbrick.com
+  suggested_slug: yellowbrick-com
+  sector: data-infrastructure
+  source_vc: ivp
+  source: https://www.ivp.com/portfolio/
+  stub_created: false
+- name: IEX
+  url: https://www.iexexchange.io
+  suggested_slug: iexexchange-io
+  sector: fintech
+  source_vc: ivp
+  source: https://www.ivp.com/portfolio/
+  stub_created: false
+- name: OnDeck Capital
+  url: ''
+  suggested_slug: ondeck-capital
+  sector: fintech
+  source_vc: ivp
+  source: https://www.ivp.com/portfolio/
+  stub_created: false
