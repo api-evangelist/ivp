@@ -2,24 +2,10 @@ generated: '2026-10-18'
 method: derived
 source_vc: ivp
 leads:
-- name: Cowboy Space Corporation
-  url: ''
-  suggested_slug: cowboy-space-corporation
-  sector: space
-  source_vc: ivp
-  source: https://www.ivp.com/portfolio/
-  stub_created: false
 - name: Clipboard Health
   url: https://www.clipboardhealth.com
   suggested_slug: clipboardhealth-com
   sector: healthcare
-  source_vc: ivp
-  source: https://www.ivp.com/portfolio/
-  stub_created: false
-- name: Found
-  url: ''
-  suggested_slug: found
-  sector: fintech
   source_vc: ivp
   source: https://www.ivp.com/portfolio/
   stub_created: false

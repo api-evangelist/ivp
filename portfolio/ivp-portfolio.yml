@@ -3,9 +3,9 @@ method: searched
 source: https://www.ivp.com/portfolio/
 summary:
   portfolio_total: 153
-  in_network: 147
+  in_network: 149
   api_providers: 72
-  missing: 6
+  missing: 4
   stubs_created: 0
 companies:
 - name: Suno
@@ -21,10 +21,12 @@ companies:
   sector: space
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cowboy-space-corporation
-  x-url-candidate: https://www.cowboyspace.com/
+  url: https://www.cowboyspace.com/
+  x-url-source: web check 2026-10-18 (confirmed)
+  slug: aetherflux
+  matched_by: domain
 - name: Cape
   sector: telecom
   status: active
@@ -431,10 +433,12 @@ companies:
   sector: fintech
   status: active
   source: https://www.ivp.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: found
-  x-url-candidate: https://found.com
+  url: https://found.com
+  x-url-source: web check 2026-10-18 (confirmed)
+  slug: found-business
+  matched_by: domain
 - name: Figma
   url: https://www.figma.com
   sector: design
