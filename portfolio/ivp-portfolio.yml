@@ -3,9 +3,9 @@ method: searched
 source: https://www.ivp.com/portfolio/
 summary:
   portfolio_total: 153
-  in_network: 147
-  api_providers: 71
-  missing: 6
+  in_network: 146
+  api_providers: 72
+  missing: 7
   stubs_created: 0
 companies:
 - name: Suno
@@ -24,6 +24,7 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: cowboy-space-corporation
+  x-url-candidate: https://www.cowboyspace.com/
 - name: Cape
   sector: telecom
   status: active
@@ -31,7 +32,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: cape
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.cape.co/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Venice
   url: https://venice.ai
   sector: ai
@@ -93,7 +96,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: wonderful
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.wonderful.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: LangChain
   url: https://www.langchain.com
   sector: developer-tools
@@ -173,7 +178,9 @@ companies:
   slug: sage
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.sage.com/en-us/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Cradle
   url: https://www.cradle.bio
   sector: biotech
@@ -271,7 +278,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: volt
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.voltchat.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Cortex
   url: https://www.cortex.io
   sector: developer-tools
@@ -297,7 +306,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: roam
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.withroam.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Jasper
   url: https://www.jasper.ai
   sector: ai
@@ -350,8 +361,8 @@ companies:
   source: https://www.ivp.com/portfolio/
   in_network: false
   is_api_provider: false
-  x-name-collision: clipboard-health
   suggested_slug: clipboardhealth-com
+  x-name-collision: clipboard-health
 - name: Sorare
   url: https://sorare.com
   sector: gaming
@@ -395,7 +406,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: paper
-  matched_by: name-slug
+  matched_by: domain
+  url: https://paper.design/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Papaya Global
   url: https://www.papayaglobal.com
   sector: hr-tech
@@ -421,6 +434,7 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: found
+  x-url-candidate: https://found.com
 - name: Figma
   url: https://www.figma.com
   sector: design
@@ -554,8 +568,8 @@ companies:
   source: https://www.ivp.com/portfolio/
   in_network: false
   is_api_provider: false
-  x-name-collision: yellowbrick-data
   suggested_slug: yellowbrick-com
+  x-name-collision: yellowbrick-data
 - name: Nextdoor
   url: https://nextdoor.com
   sector: consumer
@@ -650,10 +664,12 @@ companies:
   sector: hr-tech
   status: acquired
   source: https://www.ivp.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: humu
-  matched_by: name-slug
+  url: https://mediaoptions.com/brokered-domains/humu-com/
+  x-url-source: network-repo (title-verified 2026-10-18)
+  x-name-collision: humu
+  suggested_slug: mediaoptions-com
 - name: Hims & Hers
   url: https://www.hims.com
   sector: healthcare
@@ -815,6 +831,7 @@ companies:
   is_api_provider: false
   slug: expanse
   matched_by: name-slug
+  x-url-candidate: https://expanse.com
 - name: Discord
   url: https://discord.com
   sector: consumer
@@ -849,8 +866,8 @@ companies:
   source: https://www.ivp.com/portfolio/
   in_network: false
   is_api_provider: false
-  x-name-collision: iex
   suggested_slug: iexexchange-io
+  x-name-collision: iex
 - name: Glossier
   url: https://www.glossier.com
   sector: ecommerce
@@ -874,9 +891,11 @@ companies:
   status: acquired
   source: https://www.ivp.com/portfolio/
   in_network: true
-  is_api_provider: false
-  slug: cyence
-  matched_by: name-slug
+  is_api_provider: true
+  slug: guidewire
+  matched_by: domain
+  url: https://www.guidewire.com/products/analytics/cyence
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Zerto
   url: https://www.zerto.com
   sector: cloud
@@ -1178,6 +1197,7 @@ companies:
   is_api_provider: false
   slug: datalogix
   matched_by: name-slug
+  x-url-candidate: https://www.datalogix.io/
 - name: AppDynamics
   url: https://www.appdynamics.com
   sector: developer-tools
@@ -1194,7 +1214,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: lifelock
-  matched_by: name-slug
+  matched_by: domain
+  url: https://lifelock.norton.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Voxer
   url: https://www.voxer.com
   sector: communications
@@ -1291,7 +1313,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: personal-capital
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.personalcapital.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Marketo
   url: https://www.marketo.com
   sector: marketing
@@ -1333,7 +1357,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: ngmoco
-  matched_by: name-slug
+  matched_by: domain
+  url: https://blog.ngmoco.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Zynga
   url: https://www.zynga.com
   sector: gaming

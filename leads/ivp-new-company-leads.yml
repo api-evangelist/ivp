@@ -30,6 +30,13 @@ leads:
   source_vc: ivp
   source: https://www.ivp.com/portfolio/
   stub_created: false
+- name: Humu
+  url: https://mediaoptions.com/brokered-domains/humu-com/
+  suggested_slug: mediaoptions-com
+  sector: hr-tech
+  source_vc: ivp
+  source: https://www.ivp.com/portfolio/
+  stub_created: false
 - name: IEX
   url: https://www.iexexchange.io
   suggested_slug: iexexchange-io
